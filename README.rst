@@ -9,3 +9,24 @@ The model was trained on a dataset of 57 million cells, making it the most compr
 
 .. image:: https://raw.githubusercontent.com/GlancerZ/scMamba2/main/docs/model_arch.png
    :alt: Workflow
+
+**Finetuning SC-MAMBA2**
+-----------------------
+
+SC-MAMBA2 supports a variety of finetuning tasks to enhance performance on specific single-cell analysis applications. Below are some of the key finetuning tasks:
+
+1. **Batch Correction**
+   
+   SC-MAMBA2 can be finetuned to address batch effects in single-cell datasets. By incorporating domain adaptation techniques and leveraging the state-space modeling capabilities, SC-MAMBA2 effectively harmonizes data collected from multiple experimental batches, ensuring a more consistent downstream analysis.
+
+2. **Cell-type Annotation**
+
+   The model can be finetuned to accurately annotate cell types across diverse single-cell datasets. By training on labeled data, SC-MAMBA2 achieves high accuracy in classifying cell types even within highly heterogeneous populations, making it an essential tool for understanding cell diversity in biological samples.
+
+3. **Multi-omics Integration**
+
+   SC-MAMBA2 can integrate information from different omics layers, such as transcriptomics, proteomics, and epigenomics, to generate a comprehensive view of cellular states. Finetuning SC-MAMBA2 for multi-omics integration allows researchers to derive deeper insights into the interplay between different biological pathways and regulatory networks.
+
+4. **Perturbation & Reverse Perturbation**
+
+   SC-MAMBA2 can be finetuned to model cellular responses to perturbations, such as drug treatments or genetic modifications. The reverse perturbation functionality further allows the model to predict the necessary interventions to achieve desired cellular states, providing a powerful tool for therapeutic development and precision medicine.
