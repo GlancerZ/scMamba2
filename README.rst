@@ -1,4 +1,4 @@
-= SC-MAMBA2: Leveraging State-Space Models for Efficient Single-Cell Ultra-Long Transcriptome Modeling =
+**SC-MAMBA2: Leveraging State-Space Models for Efficient Single-Cell Ultra-Long Transcriptome Modeling**
 
 This repository contains the code for the `SC-MAMBA2` package for modeling single-cell transcriptome data.
 
