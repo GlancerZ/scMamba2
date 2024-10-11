@@ -15,8 +15,8 @@ The model was trained on a dataset of 57 million cells, making it the most compr
 
 To install the required dependencies for SC-MAMBA2, run the following command:
 
-```shell
-pip install -r requirements
+```sh
+pip install -r requirements.txt
 ```
 
 **Resource Data**
