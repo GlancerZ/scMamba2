@@ -16,6 +16,7 @@ To install the required dependencies for SC-MAMBA2, run the following command:
 ```sh
 pip install -r requirements.txt
 ```
+Important: Make sure that the versions of `mamba-ssm` and `causal-conv1d` are compatible with your Python and CUDA versions. 
 
 ## **Resource Data**
 
