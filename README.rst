@@ -10,6 +10,21 @@ The model was trained on a dataset of 57 million cells, making it the most compr
 .. image:: https://raw.githubusercontent.com/GlancerZ/scMamba2/main/docs/model_arch.png
    :alt: Workflow
 
+**Installation**
+----------------
+
+To install the required dependencies for SC-MAMBA2, run the following command:
+
+```shell
+pip install -r requirements
+```
+
+**Resource Data**
+-----------------
+
+The following resource data is used for SC-MAMBA2:
+
+
 **Finetuning SC-MAMBA2**
 -----------------------
 
