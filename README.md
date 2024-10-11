@@ -20,8 +20,7 @@ Important: Make sure that the versions of `mamba-ssm` and `causal-conv1d` are co
 
 ## **Resource Data**
 
-The following resource data is used for SC-MAMBA2:
-
+Download the dataset used in the paper from the Data folder.
 
 ## **Finetuning SC-MAMBA2**
 
